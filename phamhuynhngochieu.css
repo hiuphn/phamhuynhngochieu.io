@@ -1,0 +1,138 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container chung */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #007bff;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+.slogan {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Section chung */
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #007bff;
+}
+
+/* About */
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Skills */
+.skill {
+    margin: 20px 0;
+}
+
+.skill p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: #007bff;
+    transition: width 1s ease-in-out;
+}
+
+/* Contact */
+#contact {
+    background: #fff;
+    text-align: center;
+}
+
+.social-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+}
